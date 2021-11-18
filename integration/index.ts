@@ -13,6 +13,7 @@ const handler: IntegrationHandler = async (request, context) => {
 
       // todo make this dynamic
       const message = text
+        .replace('{id}', request.body.payload.id)
         .replace('{order_reference}', request.body.payload.customer_reference)
         .replace('{order_value}', request.body.payload.order_value.formatted_with_symbol);
 

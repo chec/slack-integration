@@ -1,7 +1,7 @@
 {
-  "name": "@chec/integration-template",
+  "name": "@chec/slack-template",
   "version": "0.0.0",
-  "description": "A template repository for creating integrations the run on Commerce.js infrastructure",
+  "description": "A simple Slack integration to post new order notifications",
   "author": "Chec Platform Ltd.",
   "license": "BSD-3-Clause",
   "scripts": {

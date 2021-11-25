@@ -4,6 +4,10 @@ A simple webhook-based Slack integration that posts new order notifications to a
 
 Docs: https://api.slack.com/messaging/webhooks
 
+<p align="center">
+<img src="https://cdn.chec.io/chec-assets/integrations/slack/slack-cover.png" align="center" />
+</p>
+
 ## Configuration
 
 This app posts a simple order notification message using the Slack webhooks API to a channel you specify. The
